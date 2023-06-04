@@ -10,6 +10,8 @@ class Emp(Model):
     salary=fields.CharField(100)
     expirence=fields.CharField(50)
     postion=fields.CharField(100)
+
    
     
 Tortoise.init_models(['app.models'],'models')
+ 
